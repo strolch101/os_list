@@ -1,0 +1,114 @@
+{
+    "os_list": [
+        {
+            "description": "manjaro-kde-rpi4 16.0 for RPi4",
+            "download_size": 995280276,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/manjaro-kde-rpi4.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/marketing.tar",
+            "nominal_size": 30168,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/os.json",
+            "os_name": "manjaro-kde-rpi4",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=manjaro-kde-rpi4&s=30168",
+            "release_date": "2020-04-03",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/root.tar.xz"
+            ]
+        },
+        {
+            "description": "LibreELEC is a fast and user-friendly Kodi Entertainment Center distribution.",
+            "group": "Media",
+            "icon": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/LibreELEC_RPi4.png",
+            "marketing_info": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/marketing.tar",
+            "nominal_size": 8105,
+            "os_info": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/os.json",
+            "os_name": "LibreELEC_RPi4",
+            "partition_setup": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=libreelec_rpi4&s=8105",
+            "release_date": "2022-03-05",
+            "supported_hex_revisions": "",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/System.tar.xz",
+                "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/Storage.tar.xz"
+            ],
+            "url": "https://libreelec.tv/",
+            "version": "10.0.2"
+        },
+        {
+            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "download_size": 1010480012,
+            "group": "Games",
+            "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
+            "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
+            "nominal_size": 60120,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi4/os.json",
+            "os_name": "Recalbox - Pi4",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=recalbox-pi4&s=60120",
+            "release_date": "2022-01-30",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "tarballs": [
+                "https://upgrade.recalbox.com/latest/noobs/rpi4/recalbox-rpi4.tar.xz"
+            ],
+            "url": "https://www.recalbox.com/",
+            "version": "8.0.2-Electron"
+        },
+        {
+            "description": "Lineage OS (KonstaKANG) 19.0 for RPi4",
+            "download_size": 496867888,
+            "feature_level": 0,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/lineage19-rpi4.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/marketing.tar",
+            "nominal_size": 16239,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/os.json",
+            "os_name": "lineage19-rpi4",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=lineage19-rpi4&s=16239",
+            "release_date": "2022-01-14",
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_backup": true,
+            "supports_sda_boot": true,
+            "supports_sda_root": true,
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/system.img.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/vendor.img.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/userdata.tar.xz"
+            ],
+            "url": "http://konstakang.com/devices/rpi4/",
+            "version": "19.0"
+        },
+        {
+            "Group": "Utility",
+            "description": "Adds an empty 512MB ext4 format partition to the partition layout.",
+            "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+            "nominal_size": 345468,
+            "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+            "os_name": "Data Partition",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=datapartition&s=345468",
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
+            ]
+        }
+    ]
+}
